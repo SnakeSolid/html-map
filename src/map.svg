@@ -113,8 +113,7 @@
        id="mapGroup"
        transform="translate(8.1349353e-6,0)">
       <image
-         sodipodi:absref="http://habrastorage.org/storage2/d85/a61/ff9/d85a61ff9c4a8aaeb64a75c55f0e368b.jpeg"
-         xlink:href="map.jpeg"
+         xlink:href="http://habrastorage.org/storage2/d85/a61/ff9/d85a61ff9c4a8aaeb64a75c55f0e368b.jpeg"
          style="display:inline"
          id="mapImage"
          height="768"
