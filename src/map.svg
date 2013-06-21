@@ -42,12 +42,12 @@
      id="namedview34"
      showgrid="false"
      inkscape:zoom="0.86915208"
-     inkscape:cx="398.90325"
-     inkscape:cy="463.66939"
+     inkscape:cx="511.08155"
+     inkscape:cy="385.43222"
      inkscape:window-x="-4"
      inkscape:window-y="-4"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer3" />
   <defs
      id="defs4">
     <filter
@@ -292,16 +292,9 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <g
-       style="enable-background:new"
        id="dialogBox"
-       inkscape:label="#g3877">
-      <rect
-         style="fill:#000000;fill-opacity:0.50196078;stroke:none"
-         id="rect3783"
-         width="1024"
-         height="768"
-         x="-1.6986412e-014"
-         y="-4.6851412e-014" />
+       inkscape:label="#g3051"
+       transform="matrix(0.99999876,0,0,1.000001,-25.117915,8.089925)">
       <rect
          rx="7"
          ry="7"
@@ -354,7 +347,7 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
       <text
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         id="textArea"
+         id="txtArea"
          x="576.42389"
          y="299.14212"
          sodipodi:linespacing="125%">Area</text>
@@ -374,7 +367,7 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
       <text
          style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         id="textDescription"
+         id="txtDescription"
          x="383.13202"
          y="400.39023"
          sodipodi:linespacing="125%">Description</text>
@@ -387,10 +380,14 @@
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
       <text
          style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-         id="textPrice"
+         id="txtPrice"
          x="376.40497"
          sodipodi:linespacing="125%"
          y="353.6265">Price</text>
     </g>
   </g>
+  <script
+     xlink:href="map.js"
+     id="script60"
+     type="text/ecmascript" />
 </svg>
