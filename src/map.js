@@ -1,12 +1,10 @@
 var houses = {
-	"house1": { name: "#1", "area": 20, price: 1500000, description: "This is totally big area." },
-	"house2": { name: "#2", "area": 25, price: 1600000, description: "This area 2." },
-	"house3": { name: "#3", "area": 30, price: 1700000, description: "Some description." },
-	"house4": { name: "#4", "area": 35, price: 1800000, description: "Empty." },
-	"house5": { name: "#5", "area": 40, price: 1900000, description: "Text, tons of text." },
-	"house6": { name: "#6", "area": 45, price: 1100000, description: "I'm description too..." },
-	"house6": { name: "#6", "area": 45, price: 1100000, description: "I'm description too..." },
-	"house6": { name: "#6", "area": 45, price: 1100000, description: "I'm description too..." }
+	"house1": { name: "africa", "area": 20, price: 1500000, description: "This is totally big area." },
+	"house2": { name: "scand.", "area": 25, price: 1600000, description: "This area 2." },
+	"house3": { name: "japan", "area": 30, price: 1700000, description: "Some description." },
+	"house4": { name: "indon.", "area": 35, price: 1800000, description: "Empty." },
+	"house5": { name: "aust.", "area": 40, price: 1900000, description: "Text, tons of text." },
+	"house6": { name: "madag.", "area": 45, price: 1100000, description: "I'm description too..." },
 };
 
 var mapHouses = [];
@@ -56,7 +54,7 @@ for (var i = 0; i < mapGroup.children.length; i++) {
 
 		if (id.substring(0, 5) === "house") {
 			child.addEventListener("mouseenter", function(event) {
-				event.target.style.fill = "#236";
+				event.target.style.fill = "#fef";
 			});
 
 			child.addEventListener("mouseleave", function(event) {
