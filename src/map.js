@@ -46,39 +46,33 @@ var adjustDialog = function() {
 	}
 };
 
-for (var i = 0; i < mapGroup.children.length; i++) {
-	var child = mapGroup.children[i];
+for (var id in houses) {
+	var child = mapGroup.children[id];
 
-	if (child.hasAttribute("id")) {
-		var id = child.id;
+	child.addEventListener("mouseenter", function(event) {
+		event.target.style.fill = "#fef";
+	});
 
-		if (id.substring(0, 5) === "house") {
-			child.addEventListener("mouseenter", function(event) {
-				event.target.style.fill = "#fef";
-			});
+	child.addEventListener("mouseleave", function(event) {
+		event.target.style.fill = "#def";
+	});
 
-			child.addEventListener("mouseleave", function(event) {
-				event.target.style.fill = "#def";
-			});
+	child.addEventListener("click", function(event) {
+		var id = event.target.id;
 
-			child.addEventListener("click", function(event) {
-				var id = event.target.id;
+		if (id in houses) {
+			house = houses[id];
 
-				if (id in houses) {
-					house = houses[id];
+			dialogBox.setAttributeNS(null, "visibility", "visible");
 
-					dialogBox.setAttributeNS(null, "visibility", "visible");
+			adjustDialog();
 
-					adjustDialog();
-
-					txtName.textContent = house.name;
-					txtArea.textContent = house.area;
-					txtPrice.textContent = house.price;
-					txtDescription.textContent = house.description;
-				}
-			});
+			txtName.textContent = house.name;
+			txtArea.textContent = house.area;
+			txtPrice.textContent = house.price;
+			txtDescription.textContent = house.description;
 		}
-	}
+	});
 }
 
 zoomIn.style.cursor = "pointer";
